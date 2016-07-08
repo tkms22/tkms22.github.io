@@ -1,56 +1,61 @@
 <!DOCTYPE html>
 <html lang="ja">
-   <head>
+  <head>
     <meta charset="utf-8">
-    <meta name="description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>アプリケーション紹介ページ</title>
+    <meta name="description" content="TechAcademyでプログラミングを学習中です。大学では経済学を専攻しています。">
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
-   </head>
-  
-  <body>
-    <div class="header">
-    <header>
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </head>
+
+  <body class="container">
+    <header class="row">
       <h1>アプリ紹介ページ</h1>
     </header>
+
+    <section id="profile" class="row">
+      <div class="col-sm-12">
+        <h2>管理者自己紹介</h2>
+
+        <ul>
+          <li>城戸 将考（学生）</li>
+          <li>福岡県出身の22歳です。大学では経済学を専攻しています。</li>
+          <li>TechAcademyでプログラミングを学習中です。</li>
+          <li>GitHubのページはこちらを<a href="http://github.com/tkms22" target="_blank"><strong>クリック</strong></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <div id="apps" class="row">
+      <h2>アプリケーション一覧</h2>
+
+      <figure class="logo col-sm-6 col-md-3">
+        <figcaption>アプリA</figcaption>
+        <img src="example1.jpg" alt="example1">
+      </figure>
+      <figure class="logo col-sm-6 col-md-3">
+        <figcaption>アプリB</figcaption>
+        <img src="example4.jpg" alt="example2">
+      </figure>
+      <figure class="logo col-sm-6 col-md-3">
+        <figcaption>アプリC</figcaption>
+        <img src="example3.jpg" alt="example3">
+      </figure>
+      <figure class="logo col-sm-6 col-md-3">
+        <figcaption>アプリD</figcaption>
+        <img src="example2.jpg" alt="example4">
+      </figure>
     </div>
-    
-    <br>
-    
-    <hr>
-    <div class="container">
-     <h2>管理者自己紹介</h2>
-     <br>
-     <br>
-     <p>城戸 将考（学生）</p>
-     <p>福岡県出身の22歳です。大学では経済学を専攻しています。</p>
-     <p>TechAcademyでプログラミングを学習中です。</p>
-     <p>GitHubのページはこちらを<a href="http://github.com/tkms22" target="_blank"><strong>クリック</strong></a></p>
-  </div>
-  
-  
-  
-  <hr>
-  
-  <div class="container">
-  <h2>アプリケーション一覧</h2>
-  <ul>
-    <div id="logo">
-      <li>アプリA</li>
-      <img src="example1.jpg" alt="">
-    </div>
-    <div id="logo">
-      <li>アプリB</li>
-      <img src="example2.jpg" alt="">
-    </div>
-    <div id="logo">
-      <li>アプリC</li>
-      <img src="example3.jpg" alt="">
-    </div>
-    <div id="logo">
-      <li>アプリD</li>
-      <img src="example4.jpg" alt="">
-    </div>
-    </ul>
-    </div>
+
+    <footer>
+      <small>&copy; 2016 Ttkms22.</small>
+    </footer>
   </body>
 </html>
