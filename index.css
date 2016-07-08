@@ -21,3 +21,7 @@ h2 {
 p {
     text-align: center;
 }
+
+#logo img {
+    max-width: 300px;
+}
